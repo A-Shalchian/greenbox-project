@@ -1,12 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <h1>for radin to edit</h1>
-    meow
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandwich Options</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        .container {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+            justify-content: center;
+        }
+
+        .box {
+            width: 300px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            text-decoration: none;
+            color: inherit;
+            transition: transform 0.2s;
+        }
+
+        .box:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .box img {
+            width: 100%;
+            height: auto;
+        }
+
+        .box h3 {
+            padding: 15px;
+            background-color: #fff;
+            font-size: 18px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <a href="link1.html" class="box">
+        <img src="src/img/Screenshot_8-11-2024_15223_www.instagram.com.jpeg" alt="Salmon poke">
+        <h3>Salmon Poke</h3>
+    </a>
+
+    <a href="link2.html" class="box">
+        <img src="https://via.placeholder.com/300" alt="Assorted Wraps">
+        <h3>ASSORTED WRAPS</h3>
+    </a>
+</div>
+
+</body>
 </html>
